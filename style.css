@@ -1,5 +1,9 @@
 /* GENERAL */
 
+#desktop-nav{
+    background-color: #dad8d8;
+    z-index: 1100;
+}
 
 .intro {
     position: fixed;
@@ -75,7 +79,7 @@ nav,
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 8vh;
 }
 
 .nav-links {
@@ -492,3 +496,16 @@ article .icon {
 footer p {
     text-align: center;
 }
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
