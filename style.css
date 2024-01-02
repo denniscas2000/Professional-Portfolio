@@ -420,6 +420,76 @@ section {
 article .icon {
     cursor: default; 
 }
+/* Client Reviews */
+#client-reviews {
+    position: relative;
+}
+
+.clientreviews{
+    padding: 40px;
+    color: #434343;
+    text-align: center;
+
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border{
+    width: 160px;
+    height: 5px;
+    background: black;
+    margin: 26px auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.clientreview{
+    background: #e8e7e7;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.clientreview img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 20px;
+    margin: 20px 00;
+}
+
+.stars{
+    color: black;
+    margin-bottom: 20px;
+}
+
+.clientbtn {
+    font-weight: 600;
+    transition: all 0.3 ease-in-out;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    margin-top: 20px;
+}
+
 
 /* Projects */
 

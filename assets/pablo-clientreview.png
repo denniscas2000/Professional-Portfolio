@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website - Pablo Wunderlich</title>
+    <script src="https://kit.fontawesome.com/915fcceb77.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="intro">
+    <element onload="myScript"></element>
+    <h1 class="logo-header">
+        <span class="logo">Pablo :</span><span class="logo"> game_audio</span>
+    </h1>
+</div>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="/images/logo.png" class="" alt="">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href='/work'>Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Reels</a>
+                    <div class="dropdown-content">
+                        <a href='/unity'>Unity</a>
+                        <a href='/unreal'>Unreal</a>
+                        <a href='/godot'>Godot</a>
+                        <a href='/fmod'>FMOD</a>
+                        <a href='/wwise'>Wwise</a>
+                        <a href='/music'>Music</a>
+                        <a href='/sounddesign'>Sound Design with Video</a>
+                    </div>
+                 </li>
+                <i class="fas solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Video Game Music Composer & Sound Designer</p>
+            <h1>Hi, I'm <span>Pablo Wunderlich</span><br>from TX,USA</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1 wrapper">
+                <img src="/images/pablo-color.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title lighter-text">About Me</h1>
+                <p>I'm Pablo Wunderlich. I'm a games music composer and a technical sound designer. I enjoy designing the sound-scape for games and other visual media from the sound effects and audio design to the musical composition. I love creating audio systems through meticulous implementation be it through scripting into the game engine and or using audio middleware such as FMOD and or Wwise.</p>
+                    <br>
+                <p>Already have a composer? No problem. I can design the sounds for your game and implement them.</p>
+                    <br>
+                <p>Already have a composer and a sound designer? No problem. I can hop into your team and help with the implementation of the sounds into the engine with or without audio middleware.</p>
+                    <br>                
+                <p>Whatever your game_audio needs are I can help you reach the sonic-landscape you envisioned to deliver a fully immersible experience.</p>
+                <hr style="width: auto;">
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Sonic Skills and Composition<br></span>Recording Foley and other sounds, processing them,<br>mixing and mastering sounds.</li>
+                        <li><span>Sonic Skills and Composition<br></span>Mixing and Mastering Engineer graduated from Mixing<br>And Mastering Academy (MAAT).</li>
+                        <li><span>Technical Sound Design<br></span>Wwise/C#/Blueprints</li>
+                        <li><span>Technical Sound Design<br></span>FMOD/C#</li>
+                        <li><span>Software Skills<br></span>Nuendo DAW, Reaper DAW, WaveLab Mastering Suite<br>Spectral Layers, FMOD, Davinci Resolve</li>
+                        <li><span>Game Engine's I Work With :<br></span>Unreal, Unity, Godot and RPG Maker.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Freelance Game Audio<br></span>2019 - Present</li>
+                        <li><span>2023 - DDLstudios<br></span>1st place Game Jam Lead Sound Design Finalist<br>for Lost Striders</li>
+                        <li><span>2023<br></span>Designer for sfx and the interactive music on Boss Rush<br>game jam (20th place of 3,000)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>September 2022 -Present<br></span>ThinkSpace Education, Chichester — MFA Game Audio and Sound Design</li>
+                        <li><span>July 2023 - Present<br></span>School of VideoGame Audio</li>
+                        <li><span>September 2021-July 2022<br></span>Mixing and Mastering Academy, Germany — Mixing and Mastering Engineer.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title centered lighter-text">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-microphone"></i>
+                <h2>Sound Design & Technical Sound Design</h2>
+                <ul>
+                    <li>Sound effects creation.</li>
+                    <li>Sound design and audio design.</li>
+                    <li>Technical sound design: implementation with Wwise and FMOD, Unity, Unreal, and Godot.</li>
+                    <li>C# and GDscripts knowledge for audio implementation.</li>
+                    <li>GitHub and GitLab user for source control.</li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa-solid fa-music"></i>
+                <h2>Music Composition & Production</h2>
+                <ul>
+                    <li>Technical sound design: implementation with Wwise and FMOD, Unity, Unreal, and Godot.</li>
+                    <li>C# and GDscripts knowledge for audio implementation.</li>
+                    <li>GitHub and GitLab user for source control.</li>
+                    <li>Trailer scoring.</li>
+                    <li>Musical composition for linear or interactive media.</li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa-solid fa-film"></i>
+                <h2>Complete Game Audio Solution</h2>
+                <ul>
+                    <li>Technical Sound Design.</li>
+                    <li>Music production and implementation.</li>
+                    <li>VO editing.</li>
+                    <li>Sound Design.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title centered lighter-text">Library of Reels</h1>
+        <div class="work-list">
+            <button id="myBtn" class="btn btn2">View All Reels</button>
+        </div>
+<hr>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Reel Selection</h2>
+      <a class='btn5 btn6' href='/unity'>Unity</a>
+      <a class='btn5 btn6' href='/unreal'>Unreal</a>
+      <a class='btn5 btn6' href='/godot'>Godot</a>
+      <a class='btn5 btn6' href='/fmod'>FMOD</a>
+      <a class='btn5 btn6' href='/wwise'>Wwise</a>
+      <a class='btn5 btn6' href='/music'>Music</a>
+      <a class='btn5 btn6' href='/sounddesign'>Sound Design</a>
+    </div>
+  </div>
+  
+
+</div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>music@pablowunderlich.com</p>
+                <div class="social-icons">
+                    <a href="https://twitter.com/wundermusik" rel="noopener noreferrer nofollow" 
+                    target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/pablo_wunderlich/" rel="noopener noreferrer nofollow" 
+                    target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/pablo-wunderlich-666010256/" rel="noopener noreferrer nofollow" 
+                    target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href="https://itch.io/profile/pablowunderlich" rel="noopener noreferrer nofollow" 
+                    target="_blank"><i class="fa-brands fa-itch-io"></i></i></a>
+                </div>
+            <a href="" class="btn btn2" onclick="window.open('images/Pablo_Wunderlich_CV 2.docx.pdf')">Download CV</a></div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Pablo, Made by Odie Creative Media</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName('tab-links')
+    var tabcontents = document.getElementsByClassName('tab-contents')
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz2F5Rkev0_JpsbmvdZBuRvZ_xA374vSDbLnvRDmTt3X0LTeJdQvW2y2v7cWyzunii8MA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ''
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById('sidemenu');
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+<script>
+        let intro = document.querySelector('.intro');
+    let logo = document.querySelector('.logo-header');
+    let logoSpan = document.querySelectorAll('.logo');
+
+    window.addEventListener('DOMContentLoaded', ()=>{
+        setTimeout(()=>{
+            logoSpan.forEach((span, idx)=>{
+                setTimeout(()=>{
+                    span.classList.add('active')
+                }, (idx + 1) * 400)
+            })
+            setTimeout(()=>{
+                logoSpan.forEach((span, idx)=>{
+                    setTimeout(()=>{
+                        span.classList.remove('active');
+                        span.classList.add('fade');
+                    }, (idx + 1)* 50)
+                })
+            },2000);
+
+            setTimeout(()=>{
+                intro.style.top = '-100vh';
+            }, 2300)
+        })
+    })
+
+</script>
+<script>
+    // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>
