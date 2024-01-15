@@ -133,4 +133,13 @@
         text-align: justify;
     }
 
+    .row{
+        display: inline;
+    }
+
+    .col{
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+    }
 }
