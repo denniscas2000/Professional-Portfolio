@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        <script src="https://kit.fontawesome.com/915fcceb77.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <a href="index.html" class="back-btn">Head Back</a>
+        </nav>
+        <nav id="hamburger-nav">
+            <div class="logo">Dennis</div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-links">
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                        <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    </div>
+                </div>
+        </nav>
+        <section id="about">
+            <p class="section__text__p1"> Get To Know More</p>            
+            <h1 class="title"> About</h1>
+            <div class="section-container">
+                <div class="section__pic-container">
+                    <img src="./assets/about-pic.png" alt="Profile Picture" class="about-pic"
+                    />
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./assets/experience.png" alt="experience icon"
+                            class="icon"/>
+                            <h3>Experience</h3>
+                            <p>1+ Years <br>Frontend Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./assets/education.png" alt="education icon"
+                            class="icon"/>
+                            <h3>Education</h3>
+                            <p>B.Sc. Bachelors Degree</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            Hello! A bit about myself, I was born and raised in Austin, Tx. A place well known for diversity and art. This heavily inspired my desire to create digital experiences with an artful blend of code and creativity. Have my passionate ideas translating into visually stunning and intuitively functional websites. With a keen eye for design, I breathe life into every pixel with seamless user interactions. My commitment to clean, responsive, and captivating interfaces reflects not just in my work but in my dedication to creating a web that delights and inspires.      </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <p class="section__text__p1">Explore my</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-containers">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon"
+                                class="icon"/>
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon"
+                                class="icon"/>
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon"
+                                class="icon"/>
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon"
+                                class="icon"/>
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Frontend Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon"
+                                class="icon"/>
+                                <div>
+                                    <h3>Node JS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" alt="experience icon"
+                                class="icon"/>
+                                <div>
+                                    <h3>Git</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow pointing downwards" class="icon arrow" onclick="location.href='./#projects'"/>
+        </section>
+        <footer>
+            <p>Copyright &#169; 2023 Dennis Castro. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
