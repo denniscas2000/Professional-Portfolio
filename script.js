@@ -50,7 +50,3 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-
-var newWindow = window.open();
-newWindow.opener = null;
-newWindow.location = 'http://some.url';
